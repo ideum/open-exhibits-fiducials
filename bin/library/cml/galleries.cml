@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml tuio="false" simulator="false" css="library/assets/styles.css">
+
+	<LibraryKit>
+		<Library type="swf" src="library/assets/openexhibits_assets.swf" />
+	</LibraryKit>
+	
+	<Container id="galleries" x="0" y="0" width="1920" height="1080" visible="true">
+		<Container id="cats" x="0" y="0" width="1920" height="1080" visible="true">
+			<Image id="cat4" width="1920" height="1080" visible="false" src="library/assets/cats/cat4.jpg"></Image>
+			<Image id="cat3" width="1920" height="1080" visible="false" src="library/assets/cats/cat3.jpg"></Image>
+			<Image id="cat2" width="1920" height="1080" visible="false" src="library/assets/cats/cat2.jpg"></Image>
+			<Image id="cat1" width="1920" height="1080" visible="true" src="library/assets/cats/cat1.jpg"></Image>
+		</Container>	
+
+		<Container id="dogs" x="0" y="0" width="1920" height="1080" visible="false">
+			<Image id="dog4" width="1920" height="1080" visible="false" src="library/assets/dogs/dog4.jpg"></Image>
+			<Image id="dog3" width="1920" height="1080" visible="false" src="library/assets/dogs/dog3.jpg"></Image>
+			<Image id="dog2" width="1920" height="1080" visible="false" src="library/assets/dogs/dog2.jpg"></Image>
+			<Image id="dog1" width="1920" height="1080" visible="true" src="library/assets/dogs/dog1.jpg"></Image>
+		</Container>
+	
+		<Container id="nyc" x="0" y="0" width="1920" height="1080" visible="false">
+			<Image id="space4" width="1920" height="1080" visible="false" src="library/assets/cats/cat4.jpg"></Image>
+			<Image id="space3" width="1920" height="1080" visible="false" src="library/assets/cats/cat3.jpg"></Image>
+			<Image id="space2" width="1920" height="1080" visible="false" src="library/assets/cats/cat2.jpg"></Image>
+			<Image id="space1" width="1920" height="1080" visible="true" src="library/assets/cats/cat1.jpg"></Image>
+		</Container>
+	
+		<Container id="cities" x="0" y="0" width="1920" height="1080" visible="false">
+			<Image id="city4" width="1920" height="1080" visible="false" src="library/assets/cats/cat4.jpg"></Image>
+			<Image id="city3" width="1920" height="1080" visible="false" src="library/assets/cats/cat3.jpg"></Image>
+			<Image id="city2" width="1920" height="1080" visible="false" src="library/assets/cats/cat2.jpg"></Image>
+			<Image id="city1" width="1920" height="1080" visible="true" src="library/assets/cats/cat1.jpg"></Image>
+		</Container>
+	
+		<Container id="mudslide" x="0" y="0" width="1920" height="1080" visible="false">
+			<Image id="mudslide4" width="1920" height="1080" visible="false" src="library/assets/cats/cat4.jpg"></Image>
+			<Image id="mudslied3" width="1920" height="1080" visible="false" src="library/assets/cats/cat3.jpg"></Image>
+			<Image id="mudslide2" width="1920" height="1080" visible="false" src="library/assets/cats/cat2.jpg"></Image>
+			<Image id="mudslide1" width="1920" height="1080" visible="true" src="library/assets/cats/cat1.jpg"></Image>
+		</Container>
+	</Container>
+	
+</cml>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml tuio="false" simulator="false" css="library/assets/styles.css">
+
+	<LibraryKit>
+		<Library type="swf" src="library/assets/openexhibits_assets.swf" />
+	</LibraryKit>
+	
+	<StageKit fullscreen="true" />
+	
+	<Container id="nyc" width="1920" height="1080">
+		<Image id="nyHistorical" width="1920" height="1080" visible="false" src="library/assets/nyc/nyHistorical.png"></Image>
+		<Image id="nySubway"  width="1920" height="1080" visible="false" src="library/assets/nyc/nySubway.png"></Image>
+		<Image id="nyCity"  width="1920" height="1080" visible="false" src="library/assets/nyc/nyCity.png"></Image>
+    </Container>
+	
+</cml>

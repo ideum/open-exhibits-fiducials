@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml tuio="false" simulator="false" css="library/assets/styles.css">
+
+	<LibraryKit>
+		<Library type="swf" src="library/assets/openexhibits_assets.swf" />
+	</LibraryKit>
+	
+	<Container id="cities" x=" 0" y="0" width="1920" height="1080" visible="true">
+		<Container x="0" y="0" width="1920" height="1080" visible="true">
+			<Image width="1920" height="1080" visible="true" src="library/assets/nyc/nyCity.png"></Image>
+		</Container>	
+
+		<Container x="0" y="0" width="1920" height="1080" visible="true">
+			<Image width="1920" height="1080" visible="true" src="library/assets/sf/sfCity.png"></Image>
+		</Container>	
+		
+		<Container x="0" y="0" width="1920" height="1080" visible="true">
+			<Image width="1920" height="1080" visible="true" src="library/assets/sf/sfCity.png"></Image>
+		</Container>	
+		
+		<Container x="0" y="0" width="1920" height="1080" visible="true">
+			<Image width="1920" height="1080" visible="true" src="library/assets/sf/sfCity.png"></Image>
+		</Container>	
+		
+		<Container x="0" y="0" width="1920" height="1080" visible="true">
+			<Image width="1920" height="1080" visible="true" src="library/assets/nyc/nyCity.png"></Image>
+		</Container>	
+	</Container>
+	
+</cml>

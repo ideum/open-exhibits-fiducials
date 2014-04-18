@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml tuio="false" simulator="false" css="library/assets/styles.css">
+
+	<LibraryKit>
+		<Library type="swf" src="library/assets/openexhibits_assets.swf" />
+	</LibraryKit>
+	
+	<StageKit fullscreen="true" />
+	
+	<Container id="viewWindow" width="750" height="550">
+		<Gesture ref="n-rotate"/>
+		<Gesture ref="n-hold"/>
+		<Gesture ref="n-drag"/>
+		
+		<!-- main viewing window -->
+		<Image width="750" height="550" x="-375" y="-275" visible="true" src="library/assets/viewWindow/ViewWindow.png"></Image>
+		
+		<!-- touchable objects around viewing window -->
+		<Image id="option1left" width="176" height="181" x="-350" y="-251" visible="true" src="library/assets/viewWindow/option1left.png">
+			<Gesture ref="n-tap"/>
+		</Image>
+		<Image id="option2left" width="127" height="177" x="-360" y="-84" visible="true" src="library/assets/viewWindow/option2left.png">
+			<Gesture ref="n-tap"/>
+		</Image>
+		<Image id="option3left" width="172" height="188" x="-338" y="69" visible="true" src="library/assets/viewWindow/option3left.png">
+			<Gesture ref="n-tap"/>
+		</Image>
+		<Image id="option1right" width="170" height="187" x="169" y="-257" visible="true" src="library/assets/viewWindow/option1right.png">
+			<Gesture ref="n-tap"/>
+		</Image>
+		<Image id="option2right" width="129" height="176" x="227" y="-86" visible="true" src="library/assets/viewWindow/option2right.png">
+			<Gesture ref="n-tap"/>
+		</Image>
+		<Image id="option3right" width="176" height="181" x="158" y="69" visible="true" src="library/assets/viewWindow/option3right.png">
+			<Gesture ref="n-tap"/>
+		</Image>
+    </Container>
+	
+</cml>

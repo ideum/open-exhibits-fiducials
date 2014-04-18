@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml tuio="false" simulator="false" css="library/assets/styles.css">
+
+	<LibraryKit>
+		<Library type="swf" src="library/assets/openexhibits_assets.swf" />
+	</LibraryKit>
+	
+	<StageKit fullscreen="true" />
+	
+	<!-- Rotating Dial -->
+	<Include src="library/cml/dial.cml"/> 
+	
+	<!-- Draggable Bar -->
+	<Include src="library/cml/bar.cml"/> 
+	
+	<!-- View Window -->
+	<Include src="library/cml/viewWindow.cml"/> 
+	
+	<!-- Primary city galleries -->
+	<Include src="library/cml/cities.cml"/>
+	
+	<!-- NYC Images -->
+	<Include src="library/cml/nyc.cml"/>
+	
+	<!-- SF Images -->
+	<Include src="library/cml/sf.cml"/>
+	
+</cml>

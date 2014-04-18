@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cml tuio="false" simulator="false" css="library/assets/styles.css">
+
+	<LibraryKit>
+		<Library type="swf" src="library/assets/openexhibits_assets.swf" />
+	</LibraryKit>
+	
+	<StageKit fullscreen="true" />
+	
+	<Container id="sf" width="1920" height="1080">
+		<Image id="sfHistorical" width="1920" height="1080" visible="false" src="library/assets/sf/sfHistorical.png"></Image>
+		<Image id="sfSubway"  width="1920" height="1080" visible="false" src="library/assets/sf/sfSubway.png"></Image>
+		<Image id="sfBikes"  width="1920" height="1080" visible="false" src="library/assets/sf/sfBikes.png"></Image>
+		<Image id="sfRoads"  width="1920" height="1080" visible="false" src="library/assets/sf/sfRoads.png"></Image>
+		<Image id="sfCity"  width="1920" height="1080" visible="false" src="library/assets/sf/sfCity.png"></Image>
+    </Container>
+	
+</cml>

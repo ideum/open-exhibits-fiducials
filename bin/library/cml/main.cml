@@ -8,7 +8,7 @@
 	<StageKit fullscreen="true" />
 	
 	<!-- Rotating Dial -->
-	<Include src="library/cml/dial.cml"/> 
+	<Include src="library/cml/point_dial.cml"/> 
 	
 	<!-- Draggable Bar -->
 	<Include src="library/cml/bar.cml"/> 
@@ -24,5 +24,13 @@
 	
 	<!-- SF Images -->
 	<Include src="library/cml/sf.cml"/>
+
+	<!-- Info overlay -->
+	<Image id="info_overlay" width="128" height="128" x="1750" y="910" visible="true" src="library/assets/info/info_icon.png">
+		<Gesture ref="n-tap"/>
+	</Image>
+	
+	<!-- Info screen -->
+	<Include src="library/cml/info_screen.cml"/>
 	
 </cml>

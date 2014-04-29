@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml>
+	<Container id="targetLocations">
+		<ModestMapMarker id="target1" latitude="36.161098" longitude="-115.194602">
+			<Image id="targetImage1" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/target_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker id="target2" latitude="36.161098" longitude="-115.28712">
+			<Image id="targetImage2" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/target_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker id="target1" latitude="36.158107" longitude="-115.060996">
+			<Image id="targetImage3" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/target_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker id="target4" latitude="36.280387" longitude="-115.263683">
+			<Image id="targetImage4" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/target_marker.png"></Image>
+		</ModestMapMarker>
+	</Container>
+</cml>
+ 
+
+<!-- -115.311117, 36.114495
+-115.138906, 36.11652
+-115.209322, 36.170921
+-115.209503, 36.272985
+-115.172684, 36.238176
+-115.249816, 36.219484
+-115.121805, 36.012125 -->

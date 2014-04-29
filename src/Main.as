@@ -8,7 +8,8 @@ package
 	import flash.text.engine.*;
 	import flash.events.*;
 	import flash.display.Sprite;
-
+	import flash.events.Event;
+	
 	/**
 	 * ...
 	 * @author John-Mark Collins
@@ -41,7 +42,8 @@ package
 			
 			var fiducial:FiducialMain = new FiducialMain(stage);
 			
-			if (CONFIG::debug == true) {
+			if (CONFIG::debug == true) 
+			{
 				//addChild(new FrameRate());
 			}
 		}

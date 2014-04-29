@@ -7,6 +7,12 @@
 	
 	<StageKit fullscreen="true" />
 	
+	<!-- Starbucks Markers -->
+	<Include src="library/cml/starbucksMarkers.cml"/> 
+	
+	<!-- Target Markers -->
+	<Include src="library/cml/targetMarkers.cml"/> 
+	
 	<!-- Rotating Dial -->
 	<Include src="library/cml/point_dial.cml"/> 
 	
@@ -32,5 +38,7 @@
 	
 	<!-- Info screen -->
 	<Include src="library/cml/info_screen.cml"/>
+	
+	
 	
 </cml>

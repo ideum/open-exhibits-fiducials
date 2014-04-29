@@ -19,6 +19,10 @@
     <class path="..\gestureworks-flash-cml" />
     <class path="..\gestureworks-flash-gml" />
     <class path="..\lib" />
+    <class path="..\gestureworks-flash-away3d" />
+    <class path="..\gestureworks-flash-away3d-work" />
+    <class path="..\away3d-core-fp11" />
+    <class path="..\csvlib-1.4.1" />
   </classpaths>
   <!-- Build options -->
   <build>

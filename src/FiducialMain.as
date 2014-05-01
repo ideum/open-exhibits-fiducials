@@ -111,7 +111,7 @@ package
 			map1.mapprovider = "MicrosoftRoadMapProvider";
 			//map1.mapprovider = "BlueMarbleMapProvider";
 			
-			for (var i = 1; i < 5; i++)
+			for (var i = 0; i < 4; i++)
 			{
 			  var starbucksName:String = "starbucks" + i;
 			  //var starbucksImageName:String = "starbucksImage" + i;
@@ -122,14 +122,14 @@ package
 			  //starbucksImages[i].alpha = 0;
 			  map1.addChild(starbucksLocations[i]);
 			  
-			  /*var targetName:String = "target" + i;
+			  var targetName:String = "target" + i;
 			  //var targetImageName:String = "targetImage" + i;
 			  //var targetImage:Image = document.getElementById(targetImageName);
 			  targetLocations[i] = document.getElementById(targetName);
 			  //targetImages[i] = targetImage;
 			  targetLocations[i].visible = false;
 			  //starbucksImages[i].alpha = 0;
-			  map1.addChild(targetLocations[i]);*/
+			  map1.addChild(targetLocations[i]);
 			}
 			
 			/*starbucks = document.getElementById("starbucks");
@@ -194,8 +194,8 @@ package
 			mainScreen.addChild(point_dial);
 			fadeInDial(false);*/
 			
-			mainScreen.addChild(viewWindow);
-			fadeInViewer(false);
+			//mainScreen.addChild(viewWindow);
+			//fadeInViewer(false);
 			
 			mainScreen.addChild(bar);
 			//mainScreen.addChild(txt);
@@ -467,22 +467,22 @@ package
 		{
 			if (event.value.n == 3)
 			{
-				/*for (var i = 1; i < targetLocations.length; i++)
+				for (var i = 0; i < targetLocations.length; i++)
 				{
 					targetLocations[i].visible = true;
 					//fadeInStarbucks(true);
-				}*/
+				}
 				
-				if (viewWindow.visible == false) viewWindow.visible = "true";
+				/*if (viewWindow.visible == false) viewWindow.visible = "true";
 				var x:int = event.value.localX;
 				var y:int = event.value.localY;
 				viewWindow.x = x;
 				viewWindow.y = y;
-				fadeInViewer(true);
+				fadeInViewer(true);*/
 			}
-			if (event.value.n == 5)
+			else if (event.value.n == 5)
 			{
-				for (var i = 1; i < starbucksLocations.length; i++)
+				for (var i = 0; i < starbucksLocations.length; i++)
 				{
 					starbucksLocations[i].visible = true;
 					//fadeInStarbucks(true);
@@ -501,7 +501,7 @@ package
 				trace("dialValue = " + dialValue);
 				var alphaValue:Number = map(dialValue, 0.0, 180.00, 0.0, 1.0);
 				txt.text = alphaValue.toString();
-				if (barState == 3)
+				/*if (barState == 3)
 				{
 					sfHistorical.alpha = alphaValue;
 					sfCity.alpha = alphaValue;
@@ -515,21 +515,20 @@ package
 					nyHistorical.alpha = alphaValue;
 					nyCity.alpha = alphaValue;
 					nySubway.alpha = alphaValue;
-				}
+				}*/
 			}
 			else
 			{
 				fadeInDial(false);
-				for (var i = 1; i < starbucksLocations.length; i++)
+				for (var i = 0; i < starbucksLocations.length; i++)
 				{
 					starbucksLocations[i].visible = false;
 					//fadeInStarbucks(false);
 				}
-				/*for (var i = 1; i < targetLocations.length; i++)
+				for (var i = 0; i < targetLocations.length; i++)
 				{
 					targetLocations[i].visible = false;
-					//fadeInStarbucks(true);
-				}*/
+				}
 			}
 		}
 		
@@ -537,12 +536,12 @@ package
 		{
 			if (event.value.n == 3)
 			{
-				if (viewWindow.visible == false) viewWindow.visible = "true";
+				/*if (viewWindow.visible == false) viewWindow.visible = "true";
 				var x:int = event.value.localX;
 				var y:int = event.value.localY;
 				viewWindow.x = x;
 				viewWindow.y = y;
-				fadeInViewer(true);
+				fadeInViewer(true);*/
 			}
 			else fadeInViewer(false);
 			
@@ -604,7 +603,10 @@ package
 				}
 				
 			}
-			else animateBar(false);
+			else 
+			{
+				animateBar(false);
+			}
 		}
 		
 		private function animateBar(on:Boolean):void

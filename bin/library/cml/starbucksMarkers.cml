@@ -2,17 +2,17 @@
 
 <cml>
 	<Container id="starbucksLocations">
-		<ModestMapMarker id="starbucks1" latitude="36.1673841" longitude="-115.1432957">
+		<ModestMapMarker id="starbucks0" latitude="36.1673841" longitude="-115.1432957">
+			<Image id="starbucksImage0" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/starbucks_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker id="starbucks1" latitude="36.0412422" longitude="-115.172381">
 			<Image id="starbucksImage1" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/starbucks_marker.png"></Image>
 		</ModestMapMarker>
-		<ModestMapMarker id="starbucks2" latitude="36.0412422" longitude="-115.172381">
+		<ModestMapMarker id="starbucks2" latitude="36.107564" longitude="-115.173261">
 			<Image id="starbucksImage2" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/starbucks_marker.png"></Image>
 		</ModestMapMarker>
-		<ModestMapMarker id="starbucks3" latitude="36.107564" longitude="-115.173261">
+		<ModestMapMarker id="starbucks3" latitude="36.1130452" longitude="-115.2790912">
 			<Image id="starbucksImage3" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/starbucks_marker.png"></Image>
-		</ModestMapMarker>
-		<ModestMapMarker id="starbucks4" latitude="36.1130452" longitude="-115.2790912">
-			<Image id="starbucksImage4" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/starbucks_marker.png"></Image>
 		</ModestMapMarker>
 	</Container>
 </cml>

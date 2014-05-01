@@ -22,13 +22,13 @@
 	<!-- View Window -->
 	<Include src="library/cml/viewWindow.cml"/> 
 	
-	<!-- Primary city galleries -->
+	<!-- Primary city galleries 
 	<Include src="library/cml/cities.cml"/>
 	
-	<!-- NYC Images -->
+	<!-- NYC Images 
 	<Include src="library/cml/nyc.cml"/>
 	
-	<!-- SF Images -->
+	<!-- SF Images 
 	<Include src="library/cml/sf.cml"/>
 
 	<!-- Info overlay -->

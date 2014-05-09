@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml>
+	<Container id="teslaLocations">
+		<ModestMapMarker class="tesla" latitude="36.165906" longitude="-115.138655">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="40.66319" longitude="-73.793192">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="42.17434" longitude="-87.816626">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="35.505278" longitude="-108.828094">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		
+		<ModestMapMarker class="tesla" latitude="50.817046" longitude="8.087663">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="62.074926" longitude="9.128281">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="31.242917" longitude="121.575333">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="31.2815" longitude="121.162917">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		
+		<ModestMapMarker class="tesla" latitude="58.15653" longitude="7.10298">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="48.411685" longitude="10.439755">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="46.832233" longitude="6.859269">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="48.156978" longitude="16.333351">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		
+		<ModestMapMarker class="tesla" latitude="52.173963" longitude="11.494255">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="47.880483" longitude="10.039783">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="49.211936" longitude="9.077322">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="51.94066" longitude="6.0818">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		
+		<ModestMapMarker class="tesla" latitude="60.89863" longitude="7.21082">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="47.130137" longitude="10.269231">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="51.626423" longitude="4.869517">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="61.13045" longitude="10.43491">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		
+		<ModestMapMarker class="tesla" latitude="60.70232" longitude="8.9862">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="58.820783" longitude="10.269231">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="51.626423" longitude="4.869517">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="61.13045" longitude="9.073746">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		
+		<ModestMapMarker class="tesla" latitude="34.922962" longitude="-110.145558">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="35.191331" longitude="-114.065592">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="35.174272" longitude="-111.66328">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="33.443011" longitude="-112.556876">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		
+		<ModestMapMarker class="tesla" latitude="33.661314" longitude="-114.242174">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="32.726686" longitude="-114.619093">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="33.498458" longitude="-117.6632">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="tesla" latitude="34.61456" longitude="-120.188387">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/tesla_marker.png"></Image>
+		</ModestMapMarker>
+		
+	</Container>
+</cml>
+

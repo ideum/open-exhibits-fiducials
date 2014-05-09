@@ -13,6 +13,12 @@
 	<!-- Target Markers -->
 	<Include src="library/cml/targetMarkers.cml"/> 
 	
+	<!-- Tesla Markers -->
+	<Include src="library/cml/teslaMarkers.cml"/> 
+	
+	<!-- Museum Markers -->
+	<Include src="library/cml/museumMarkers.cml"/> 
+	
 	<!-- Rotating Dial -->
 	<Include src="library/cml/point_dial.cml"/> 
 	

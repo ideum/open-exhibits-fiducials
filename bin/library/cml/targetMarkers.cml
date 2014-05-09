@@ -2,16 +2,16 @@
 
 <cml>
 	<Container id="targetLocations">
-		<ModestMapMarker id="target0" latitude="36.161098" longitude="-115.194602">
+		<ModestMapMarker class="target" id="target0" latitude="36.161098" longitude="-115.194602">
 			<Image id="targetImage0" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/target_marker.png"></Image>
 		</ModestMapMarker>
-		<ModestMapMarker id="target1" latitude="36.161098" longitude="-115.28712">
+		<ModestMapMarker class="target" id="target1" latitude="36.161098" longitude="-115.28712">
 			<Image id="targetImage1" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/target_marker.png"></Image>
 		</ModestMapMarker>
-		<ModestMapMarker id="target2" latitude="36.158107" longitude="-115.060996">
+		<ModestMapMarker class="target" id="target2" latitude="36.158107" longitude="-115.060996">
 			<Image id="targetImage2" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/target_marker.png"></Image>
 		</ModestMapMarker>
-		<ModestMapMarker id="target3" latitude="36.280387" longitude="-115.263683">
+		<ModestMapMarker class="target" id="target3" latitude="36.280387" longitude="-115.263683">
 			<Image id="targetImage3" width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/target_marker.png"></Image>
 		</ModestMapMarker>
 	</Container>

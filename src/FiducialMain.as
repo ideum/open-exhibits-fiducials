@@ -76,12 +76,12 @@ package
 		
 		// Map 
 		var map1:ModestMap = new ModestMap;
-		var starbucksLocations:Array = new Array();
-		//var starbucksImages:Array = new Array();
 		
-		var targetLocations:Array = new Array();
-		//var targetImages:Array = new Array();
-	
+		var starbucksLocations:Array = document.getElementsByClassName("starbucks");
+		var targetLocations:Array = document.getElementsByClassName("target");
+		var teslaLocations:Array = document.getElementsByClassName("tesla");
+		var museumLocations:Array = document.getElementsByClassName("museum");
+		
 		public function FiducialMain(stage:Stage = null)
 		{
 			super();
@@ -110,26 +110,29 @@ package
 			map1.zoom = 12;
 			map1.mapprovider = "MicrosoftRoadMapProvider";
 			//map1.mapprovider = "BlueMarbleMapProvider";
-			
-			for (var i = 0; i < 4; i++)
+								
+			for (var i = 0; i < starbucksLocations.length; i++)
 			{
-			  var starbucksName:String = "starbucks" + i;
-			  //var starbucksImageName:String = "starbucksImage" + i;
-			  //var starbucksImage:Image = document.getElementById(starbucksImageName);
-			  starbucksLocations[i] = document.getElementById(starbucksName);
-			  //starbucksImages[i] = starbucksImage;
 			  starbucksLocations[i].visible = false;
-			  //starbucksImages[i].alpha = 0;
 			  map1.addChild(starbucksLocations[i]);
-			  
-			  var targetName:String = "target" + i;
-			  //var targetImageName:String = "targetImage" + i;
-			  //var targetImage:Image = document.getElementById(targetImageName);
-			  targetLocations[i] = document.getElementById(targetName);
-			  //targetImages[i] = targetImage;
+			}
+			
+			for (var i = 0; i < targetLocations.length; i++)
+			{
 			  targetLocations[i].visible = false;
-			  //starbucksImages[i].alpha = 0;
 			  map1.addChild(targetLocations[i]);
+			}
+			  
+			for (var i = 0; i < teslaLocations.length; i++)
+			{
+			  teslaLocations[i].visible = false;
+			  map1.addChild(teslaLocations[i]);
+			}
+			  
+			for (var i = 0; i < museumLocations.length; i++)
+			{
+			  museumLocations[i].visible = false;
+			  map1.addChild(museumLocations[i]);
 			}
 			
 			/*starbucks = document.getElementById("starbucks");
@@ -204,15 +207,19 @@ package
 			mainScreen.mouseChildren = true;
 			mainScreen.clusterBubbling = true;
 			
+			//			   
 			// add events 
-			mainScreen.gestureList = { "tap": true,
-									   "n-rotate": true,
-									   "n-drag": true, 
-									   "n-scale": true };
+			mainScreen.gestureList = { 	"tap": true,
+										"n-rotate": true,
+										"n-drag": true, 
+										"n-scale": true,
+										"hold": true };
 									   
 			//mainScreen.addEventListener(GWGestureEvent.TAP, onTap);
-			mainScreen.addEventListener(GWGestureEvent.ROTATE, onRotate);
+			//mainScreen.addEventListener(GWGestureEvent.ROTATE, onRotate);
 			mainScreen.addEventListener(GWGestureEvent.DRAG, onDrag);
+			mainScreen.addEventListener(GWGestureEvent.HOLD, onHold);
+			mainScreen.addEventListener(GWGestureEvent.RELEASE, clearAll);
 			
 			// listeners for viewer options
 			//document.getElementById("viewWindow").addEventListener(GWGestureEvent.HOLD, onViewerHold);
@@ -465,6 +472,35 @@ package
 
 		private function onRotate(event:GWGestureEvent):void
 		{
+			trace("rotating...");
+		}
+		
+		private function clearAll(event:GWGestureEvent):void
+		{
+			for (var i = 0; i < starbucksLocations.length; i++)
+			{
+				starbucksLocations[i].visible = false;
+				//fadeInStarbucks(false);
+			}
+			for (var i = 0; i < targetLocations.length; i++)
+			{
+				targetLocations[i].visible = false;
+			}
+			for (var i = 0; i < museumLocations.length; i++)
+			{
+				museumLocations[i].visible = false;
+				//fadeInStarbucks(false);
+			}
+			for (var i = 0; i < teslaLocations.length; i++)
+			{
+				teslaLocations[i].visible = false;
+			}
+		}
+		
+		private function onHold(event:GWGestureEvent):void
+		{
+			trace("holding...");
+			
 			if (event.value.n == 3)
 			{
 				for (var i = 0; i < targetLocations.length; i++)
@@ -517,6 +553,36 @@ package
 					nySubway.alpha = alphaValue;
 				}*/
 			}
+			else if (event.value.n == 8)
+			{
+				for (var i = 0; i < teslaLocations.length; i++)
+				{
+					teslaLocations[i].visible = true;
+					//fadeInStarbucks(true);
+				}
+				
+				/*if (viewWindow.visible == false) viewWindow.visible = "true";
+				var x:int = event.value.localX;
+				var y:int = event.value.localY;
+				viewWindow.x = x;
+				viewWindow.y = y;
+				fadeInViewer(true);*/
+			}
+			else if (event.value.n == 6)
+			{
+				for (var i = 0; i < museumLocations.length; i++)
+				{
+					museumLocations[i].visible = true;
+					//fadeInStarbucks(true);
+				}
+				
+				/*if (viewWindow.visible == false) viewWindow.visible = "true";
+				var x:int = event.value.localX;
+				var y:int = event.value.localY;
+				viewWindow.x = x;
+				viewWindow.y = y;
+				fadeInViewer(true);*/
+			}
 			else
 			{
 				fadeInDial(false);
@@ -528,6 +594,15 @@ package
 				for (var i = 0; i < targetLocations.length; i++)
 				{
 					targetLocations[i].visible = false;
+				}
+				for (var i = 0; i < museumLocations.length; i++)
+				{
+					museumLocations[i].visible = false;
+					//fadeInStarbucks(false);
+				}
+				for (var i = 0; i < teslaLocations.length; i++)
+				{
+					teslaLocations[i].visible = false;
 				}
 			}
 		}

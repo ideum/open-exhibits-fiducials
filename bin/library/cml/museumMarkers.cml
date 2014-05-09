@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml>
+	<Container id="museumLocations">
+		<ModestMapMarker class="museum" latitude="36.158843" longitude="-115.128983">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/museum_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="museum" latitude="36.127376" longitude="-115.175934">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/museum_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="museum" latitude="36.144507" longitude="-115.305795">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/museum_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="museum" latitude="36.17927" longitude="-115.134705">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/museum_marker.png"></Image>
+		</ModestMapMarker>
+	</Container>
+	
+	<Container id="museumLocations">
+		<ModestMapMarker class="museum" latitude="36.155767" longitude="-115.181849">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/museum_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="museum" latitude="36.137847" longitude="-115.161287">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/museum_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="museum" latitude="36.187042" longitude="-115.165286">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/museum_marker.png"></Image>
+		</ModestMapMarker>
+		<ModestMapMarker class="museum" latitude="36.100878" longitude="-115.128508">
+			<Image width="62" height="100" x="-31" y="-100" visible="true" src="library/assets/mapMarkers/museum_marker.png"></Image>
+		</ModestMapMarker>
+	</Container>
+	
+</cml>
+ 
+
+

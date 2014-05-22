@@ -15,9 +15,9 @@
 		<Magnifier radius="180" visible="true" magnification="2" distortionRadius="0" graphic="none"/>
 		
 		<!-- main viewing window -->
-		<Image width="796" height="566" x="-398" y="-283" visible="true" src="library/assets/viewWindow/ViewWindow.png"></Image>
+		<Image width="796" height="566" x="-398" y="-283" visible="true" mouseEnabled="false" src="library/assets/viewWindow/ViewWindow.png"></Image>
 		
-		<!-- touchable objects around viewing window -->
+		<!-- touchable objects around viewing window
 		<Image id="option1left" width="176" height="181" x="-350" y="-251" visible="true" mouseChildren="false" src="library/assets/viewWindow/option1left.png">
 			<Gesture ref="n-tap"/>
 		</Image>
@@ -34,8 +34,8 @@
 			<Gesture ref="n-tap"/>
 		</Image>
 		<Image id="option3right" width="176" height="181" x="158" y="69" visible="true" mouseChildren="false" src="library/assets/viewWindow/option3right.png">
-			<Gesture ref="n-tap"/>
-		</Image>
+			<Gesture ref="n-tap"/> 
+		</Image> -->
 		
     </Container>
 	

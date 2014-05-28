@@ -4,6 +4,7 @@ package
 	import com.gestureworks.cml.elements.Image;
 	import com.gestureworks.cml.elements.Text;
 	import com.gestureworks.cml.elements.RadialSlider;
+	import com.gestureworks.cml.elements.Video;
 	import com.gestureworks.cml.utils.document;
 	import com.gestureworks.core.GestureWorks;
 	import com.gestureworks.core.TouchSprite;
@@ -37,6 +38,7 @@ package
 	{	
 		// import ui elements from cml
 		private var point_dial:Container = document.getElementById("point_dial");
+		private var rotationGraphic:Image = document.getElementById("rotation_graphic");
 		private var bar:Container = document.getElementById("bar");
 		private var viewWindow:Container = document.getElementById("viewWindow");
 		private var info_overlay:Image = document.getElementById("info_overlay");
@@ -167,9 +169,9 @@ package
 		private function _onUpdate( e:Event ):void
 		{
 			// rotate dial
-			dialValue = dialValue + 4.0;
-			if (dialValue == 360) dialValue = 0.0;
-			point_dial.rotationZ = dialValue;
+			//dialValue = dialValue + 4.0;
+			//if (dialValue == 360) dialValue = 0.0;
+			//point_dial.rotationZ = dialValue;
 		}
 		
 		private function timerFunction(e:Event = null):void
@@ -205,17 +207,30 @@ package
 			{
 				if (!mainScreen.contains(point_dial)) mainScreen.addChild(point_dial);
 				if (point_dial.visible == false) point_dial.visible = true;
+				var imageScale:Number = e.target.cO.width / rotationGraphic.width;
 				
 				x = e.value.localX;
 				y = e.value.localY;
 				point_dial.x = x;
 				point_dial.y = y;
+
+				rotationGraphic.scaleX = imageScale*2;
+				rotationGraphic.scaleY = imageScale * 2;
+				rotationGraphic.x = -250*(imageScale*2);
+				rotationGraphic.y = -250*(imageScale*2);
+				
+				var scaleFactor:Number = .4;
+				if (e.value.rotate_dtheta < 0)
+				{
+					scaleFactor = 2.0;
+				}
+				trace("Rotation = " + e.value.rotate_dtheta);
 				fade(point_dial, "in");
 				
 				// scale variable for adjusting amount of zoom per rotation
-				var scaleFactor:Number = .5;
+				var scaleFactor:Number = .8;
 				var zoom:Number = e.value.rotate_dtheta * scaleFactor;
-				
+				trace("zoom = " + zoom);
 				if((zoom < -1.0) || (zoom > 1.0))
 				{
 					map1.map.zoomByAbout(zoom, new Point(e.value.localX, e.value.localY));
@@ -322,7 +337,7 @@ package
 					trace("Switching map right");
 					barState += 1;
 					if (barState > 4) barState = 4;	
-					map1.map.setMapProvider(providers[barState]);
+					else map1.map.setMapProvider(providers[barState]);
 					trace("map provider = " + map1.mapprovider);
 					trace("map index = " + barState);
 					barChange = 0;
@@ -351,7 +366,7 @@ package
 					trace("Switching map back");
 					barState -= 1;
 					if (barState < 0) barState = 0;	
-					map1.map.setMapProvider(providers[barState]);
+					else map1.map.setMapProvider(providers[barState]);
 					trace("map provider = " + map1.mapprovider);
 					trace("map index = " + barState);
 					barChange = 0;

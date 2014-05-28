@@ -66,7 +66,7 @@
     <element path="..\lib\cml_ext.swc" />
     <element path="..\lib\gml_ext.swc" />
     <element path="..\lib\gui.swc" />
-    <element path="..\lib\texLayout.swc" />
+    <element path="..\lib\textLayout.swc" />
     <element path="..\lib\away3d-core-fp11_4_1_4.swc" />
   </libraryPaths>
   <!-- External Libraries -->

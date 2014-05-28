@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cml>
 	<Container id="point_dial" visible="false" mouseEnabled="false">
+		<Image id="rotation_graphic" width="500" height="500" x="-250" y="-250" mouseEnabled="false" src="library/assets/dial/zoom.png"></Image>
 		<Gesture ref="n-drag"/>
 		<Gesture ref="n-rotate"/>
-		<Image width="500" height="500" x="-250" y="-274" mouseEnabled="false" src="library/assets/dial/zoom.png"></Image>
     </Container>
 	
 </cml>
